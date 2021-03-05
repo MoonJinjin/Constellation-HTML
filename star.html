@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Song+Myung&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+
+
+	<title> 별자리 </title>
+
+
+	<style type="text/css">
+		html, body, .container, .main { height: 100%; }
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		body {
+			background-image: url('img3/back.jpg');
+			background-attachment: fixed;
+			background-repeat : no-repeat;
+			background-size : cover;
+		}
+		.container {
+			width: 100%; height: 100%;
+			top: 0; left: 0;
+		}
+		.footer {
+			color: white;
+			text-align: center;
+			width: 100%; height: 70px;
+		}
+		.footer p {
+			font-family: 'Noto Sans KR' ;
+			font-size: 13px;
+		}
+		.main {
+			height: 1300px;
+		}	
+		.main img {
+			animation: appear 4s;
+			width: 50%;
+			display: block;
+			margin: 0 auto;
+		}
+		#nav {
+			width: 100%;
+			display: inline-block;
+			vertical-align: middle;
+			text-align: center;
+			margin: 0 auto;
+			padding-top: 20px;
+		}
+		#nav a {
+			text-decoration: none;
+			color: white;
+			padding: 20px;
+		}
+		#nav a:hover {
+			color: yellow;
+		}
+		#nav li {
+			display: inline;
+			font-family: 'Song Myung' ;
+			font-size: 1.6vw;
+		}
+
+		@keyframes appear {
+    		from {
+        		opacity: 0;
+    		} to {
+        		opacity: 1;
+    		}
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="main"> 
+			<img src="img3/logo.png">
+
+			<div id="nav">
+			<ul>
+				<li> <a href="star_1.html"> 별자리날짜 </a> </li>
+				<li> <a href="star_2.html"> 별자리성격 </a> </li>
+				<li> <a href="star_3.html"> 별자리궁합 </a> </li>
+				<li> <a href="star_4.html"> 별자리운세 </a> </li>
+			</ul>
+			</div>
+		</div>
+
+		<div class="footer">
+			<p> 본 웹사이트는 개인 포트폴리오용 사이트입니다. <br/> 연락처 : 010-5686-6531 | 이메일 : s2019s11@e-mirim.hs.kr </p>
+		</div>
+	</div>
+</body>
+</html>
