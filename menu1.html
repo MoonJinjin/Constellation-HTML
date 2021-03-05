@@ -8,6 +8,7 @@
 
 	<title> 별자리 </title>
 
+
 	<style type="text/css">
 		html, body, .container, .header { height: 100%; }
 		* {
@@ -29,6 +30,7 @@
 			height: 30%;
 		}
 		.header img {
+			min-width: 200px;
 			padding-top: 20px;
 			width: 20%;
 			display: block;
@@ -62,8 +64,8 @@
 
 		.main {
 			width: 95%;
-			height: 1580px;
-			padding-left: 35px;
+			padding-bottom: 500px;
+			height: 100%;
     	}
     	.main img {
     		width: 400px;
@@ -74,9 +76,13 @@
     		text-align: center;
     	}
     	.footer {
-			color: white;
+			color: black;
 			text-align: center;
-			width: 100%; height: 70px;
+			position: fixed;
+			background-color: rgba(255,255,255,0.5);
+			bottom: 0;
+			padding-top: 20px;
+			width: 100%; height: 60px;
 		}
 		.footer p {
 			font-family: 'Noto Sans KR' ;
@@ -111,7 +117,7 @@
 			float: left;
 			width: 400px;
 		}
-		#gril {
+		#girl {
 			float: left;
 			width: 400px;
 		}
@@ -136,14 +142,14 @@
 <body>
 	<div class="container">
 		<div class="header"> 
-			<a href="star.html"> <img src="img3/logo2.png"> </a>
+			<a href="main.html"> <img src="img3/logo2.png"> </a>
 
 			<div id="nav">
 				<ul>
-					<a href="star_1.html"> <li> 별자리날짜 </li> </a>
-					<a href="star_2.html"> <li> 별자리성격 </li> </a>
-					<a href="star_3.html"> <li> 별자리궁합 </li> </a>
-					<a href="star_4.html"> <li> 별자리운세 </li> </a>
+					<a href="menu1.html"> <li> 별자리날짜 </li> </a>
+					<a href="menu2.html"> <li> 별자리성격 </li> </a>
+					<a href="menu3.html"> <li> 별자리궁합 </li> </a>
+					<a href="menu4.html"> <li> 별자리운세 </li> </a>
 				</ul>
 			</div>
 		</div>
@@ -202,7 +208,7 @@
 			</div>
 		</div>
 
-		<div class="footer">
+		<div class="footer" >
 			<p> 본 웹사이트는 개인 포트폴리오용 사이트입니다. <br/> 연락처 : 010-5686-6531 | 이메일 : s2019s11@e-mirim.hs.kr </p>
 		</div>
 	</div>
